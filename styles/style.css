@@ -10,4 +10,62 @@ White: #FFF
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+
+    width: 100%;
+    height: 8vh;
+    padding: 0 2%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav-bar #logo {
+    height: 70%;
+}
+
+#nav-bar #nav-links {
+    width: 30%;
+    padding-right: 4%;
+}
+
+#nav-bar #nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#image-panel {
+    color: white;
+}
+
+#image-panel img { 
+    width: 100%;
+    z-index: -1;
+}
+
+#image-panel h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 500%;
+}
+
+#image-panel h3 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 150%;
+    width: 40%;
+    text-align: center;
+    font-weight: 200;
 }
